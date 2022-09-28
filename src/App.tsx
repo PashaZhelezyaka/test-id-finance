@@ -14,10 +14,8 @@ function App() {
     <div className={"containerApp"}>
       <Routes>
         <Route path="/" element={<Layout/>} >
-        {/*<div className={"mainContainer"}>*/}
-          <Route index element={<SignUp/>} />
-          <Route path="personal" element={<PersonalInfo/>} />
-        {/*</div>*/}
+          <Route path="signup" element = {<SignUp/>} />
+          <Route path="signup/personal" element={<PersonalInfo/>} />
           </Route>
       </Routes>
     </div>
