@@ -13,7 +13,7 @@ function BreadcrumbsComponent() {
       <Breadcrumbs aria-label="breadcrumb">
         {nameLocations.map((el, index) => {
           return (
-            <Link to={'/' + el} key={index}>
+            <Link to={(el === "personal" ? "/signup/": "/") + el} key={index}>
               {el === "signup" ? "Sign Up" : "Personal Info"}
             </Link>
           )
