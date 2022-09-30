@@ -37,7 +37,7 @@
 .formContainer form {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 55vh;
   justify-content: space-around;
 }
 
@@ -51,18 +51,18 @@
 .header {
   width: 100%;
   min-height: 150px;
-  background: #61dafb;
+  background: #e5e9ea;
 }
 
 .footer {
   width: 100%;
   min-height: 150px;
-  background: coral;
+  background: #e5e9ea;
 }
 
 .mainContainer {
   flex: 1;
-  background: #93a451;
+  /*background: #93a451;*/
   width: 100%;
 }
 
