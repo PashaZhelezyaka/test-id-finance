@@ -5,6 +5,7 @@ import {useLocation, Link} from "react-router-dom";
 
 function BreadcrumbsComponent() {
 
+
   const location = useLocation();
   const nameLocations: string[] = location.pathname.split('/').filter(el => el);
 
